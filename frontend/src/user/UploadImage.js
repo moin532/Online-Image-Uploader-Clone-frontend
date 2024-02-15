@@ -31,7 +31,7 @@ const UploadImage = () => {
     }
 
     if (succes) {
-      toast.success("Product Created Successfully");
+      toast.success("Image Created Successfully");
       Navigate("/");
       dispatch({ type: NEW_PRODUCT_RESET });
     }
