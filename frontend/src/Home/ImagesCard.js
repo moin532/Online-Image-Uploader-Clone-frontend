@@ -42,7 +42,7 @@ const ImageCard = () => {
                       <h3>{image.name}</h3>
 
                       <div id="user">
-                        <h3>ywwwwwww</h3>
+                       <h3>{image.userCreate[0].user_create_name.slice(0,10)}</h3>
                       </div>
 
                       <Button className="btn">open</Button>
