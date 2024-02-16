@@ -162,10 +162,10 @@ const DetailsImage = () => {
               </p>
               <p className="product-data-price">
                 user Name:
-                {/* <span>{image.userCreate[0].user_create_name}</span> */}
+                 <span>{image.userCreate[0].user_create_name}</span> 
               </p>
               <p className="product-data-price">
-                {/* user Email:<span>{image.userCreate[0].user_create_email}</span> */}
+              user Email:<span>{image.userCreate[0].user_create_email}</span> 
               </p>
             
               <p className="product-data-price">
